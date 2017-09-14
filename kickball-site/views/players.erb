@@ -1,0 +1,7 @@
+<h1>List of Players</h1>
+
+  <% @roster.each do |position, player| %>
+  <h4><%= "#{position} #{player}" %></h4>
+  <% end %>
+
+<h2><a class="back" href="/teams">Back to All Teams</a></h2>

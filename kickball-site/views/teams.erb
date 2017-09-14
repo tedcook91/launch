@@ -1,0 +1,7 @@
+<h1>List of Teams</h1>
+
+  <% @teams.each do |team| %>
+  <h4><a href="/teams/<%= team.to_s %>"><%= team.to_s %></a></h4>
+  <% end %>
+
+  <h2><a class="back" href="/">Home</a></h2>
