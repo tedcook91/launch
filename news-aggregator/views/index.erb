@@ -1,0 +1,8 @@
+
+<h1>Pointless Articles</h1>
+
+<% @articles.each do |article| %>
+  <h4><a href="/article/<%= article.id %>"><%= article.title %><%= article.url %><%= article.description %></a></h4>
+<% end %>
+
+<h4 class="new"><a href="/articles/new">Add a New Pointless Article</a></h4>

@@ -1,0 +1,4 @@
+id,title,url,description
+1,I wish,http://localhost:4567/articles/new,This worked
+2,Why don't,http://localhost:4567/articles/new,You work
+3,Testing,http://localhost:4567/articles/new,Again
